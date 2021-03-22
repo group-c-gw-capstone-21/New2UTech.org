@@ -1,0 +1,542 @@
+.topHeaderRow {
+  background-color: #0099ff;
+  height: 2em;
+  font-size: 0.8em;
+  padding-top: 1em;
+}
+
+.navbar-default{
+  background-color:#808080;
+  border-color:#283586;
+  color: #ffffff;
+  height: 125px;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+/* keeps nav bar when screen is contracted horizontally */
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* keeps nav bar when screen is contracted horizontally */
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    content: " ";
+    display: table;
+}
+/* connects top header and top navigation bar */
+
+.navbar-header{
+  float:left;
+  color: #ffffff;
+
+}
+
+.navbar-brand {
+    font-family: lobster, serif;
+    font-size: 50px;
+    float:left;
+    padding: 39px 0px 0px 20px;
+    font-size:40px;
+    line-height:2px;
+    height:auto;
+    color: #ffffff;
+    display: contents;
+}
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+  margin-top: 25px;
+  font-size: 1.5em;
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+		display: inline;
+    color: #ffffff;
+}
+
+
+.nav-links{
+  color: #ffffff;
+  display: inline;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-btn{
+  border: 2px solid black;
+  border-color: #808080;
+  background-color: #0099ff;
+  font-size: 30px;
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 14px 28px;
+}
+
+.donate-btn{
+  border: 2px solid black;
+  border-color: #808080;
+  background-color: #339966;
+  font-size: 30px;
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 14px 28px;
+}
+
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #ffffff;
+    display: block;
+    margin: 8px;
+}
+
+ul {
+    display: inline;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: 150px;
+}
+
+td img{
+  height: 200px;
+  width: 200px;
+}
+
+.homepage-image img{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+}
+
+.about-us-image img{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+}
+
+.about-us{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+}
+
+.equipment-icons{
+  padding: 3em;
+}
+
+table{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.postlist{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.email-entry{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid black;
+  height: 300px;
+  width: 400px;
+}
+
+.new-account-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid black;
+  height: 400px;
+  width: 600px;
+}
+
+.npo-search-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid black;
+  height: 300px;
+  width: 600px;
+}
+
+.add-inventory-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  padding: 1em;
+  border: 2px solid black;
+  height: 200px;
+  width: 80%;
+}
+
+.csv-file-input{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 1em;
+  height: 20px;
+  width: 80%;
+}
+
+.csv-input-div{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.new-account-link{
+  color: #f44336;
+}
+
+.login-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 300px;
+  width: 400px;
+}
+
+.login-header{
+  position: relative;
+  text-align: right;
+}
+
+
+.register-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  height: 250px;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.reset-password-form{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  height: 250px;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.form-spacers{
+  padding: 1em;
+}
+
+.email-submit-btn{
+  background-color: #42d645;
+}
+
+.csv-submit-btn{
+  background-color: #ac5353;
+}
+
+.edit-profile-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #0099ff;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.npo-profile-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #cc00ff;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.view-inventory-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #808080;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.add-inventory-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #0099ff;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.edit-inventory-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #808080;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.export-inventory-report-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #42d645;
+  color: #ffffff;
+  padding: .9em;
+  border: 2px solid black;
+}
+
+.update-inventory-view-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #ac5353;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.view-npo-trans-btn{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #808080;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.npo-search-inventory-btn{
+  background-color: #00b3b3;
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 1em;
+  border: 2px solid black;
+  width: 210px;
+  text-align: center;
+}
+
+.npo-search-btn{
+  background-color: #42d645;
+}
+
+.cancel-btn{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+.donor-tbl{
+  padding: 1em;
+  border: 2px solid black;
+  width: 80%;
+  text-align: center;
+}
+
+.donor-tbl th{
+  background-color: #0099ff;
+  font-style: bold;
+  padding: 1em;
+  border: 2px solid black;
+  width: 80%;
+  text-align: center;
+}
+
+.donor-tbl td{
+  border: 2px solid black;
+
+}
+
+.npo-search-resuts-tbl{
+  padding: 1em;
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.npo-search-resuts-tbl td{
+  padding: 1em;
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.npo-search-resuts-tbl th{
+  padding: 1em;
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.npo-search-resuts-tbl th{
+  background-color: #cc00ff;
+  color: #ffffff;
+  font-style: bold;
+  padding: 1em;
+  border: 2px solid black;
+  width: 80%;
+  text-align: center;
+}
+
+.npo-claim-request-btn{
+  background-color: #42d645;
+}
+
+.export-npo-trans-report{
+  background-color:#808080;
+}
+
+.npo-cancel-request-btn{
+  background-color:#ac5353;
+}
+
+  .new-donor-tbl{
+      border: 2px solid black;
+      height: 15px;
+  }
+
+  button {
+    background-color: #0099ff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  img.avatar {
+    width: auto;
+    border-radius: 0%;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    font-weight: bold;
+  }
+
+  span.psw a{
+    color: #ffffff;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+    .separator{
+      width: 100%;
+      height: 100px;
+    }
+
+  footer a{
+      width: 100%;
+      margin: 0 auto;
+      background-color: #0099ff;
+      color: #ffffff;
+      font-family: lobster, serif;
+      text-align: center;
+      font-size: 50px;
+      height: 75px;
+  }
+
+  .homepage-footer {
+      background-color: #0099ff;
+      color: #ffffff;
+      font-family: lobster, serif;
+      text-align: center;
+      font-size: 50px;
+      height: 75px;
+      width: 100%;
+  }
+
+  .homepage-footer a{
+      color: #ffffff;
+      font-family: lobster, serif;
+      text-align: center;
+      font-size: 50px;
+      height: 75px;
+      width: 100%;
+  }
+
+  .new-account-footer{
+    background-color: #0099ff;
+    color: #ffffff;
+    font-family: lobster, serif;
+    text-align: center;
+    font-size: 50px;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
